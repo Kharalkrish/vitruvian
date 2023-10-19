@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo Mate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-sidebar" id="sidebar">
+            <div class="top-list-items" id="top-list-item">
+                <!-- <h1>Geo Mate</h1> -->
+                <div class="three-dots"><img src="icons/dots.png" id="three-dots" /></div>
+            </div>
+            <div class="move-icons hidden">
+                <img id="left-icons" src="icons/dock.png" />
+                <img id="right-icons" src="icons/dock.png" />
+                <img id="bottom-icons" src="icons/dock.png" />
+                <img id="minimize-icons" src="icons/minimize.png" />
+            </div>
+            <div class="left-sidebar-container-links" id="left-sidebar-container">
+            <ul class="left-sidebar-list-items">
+                <li><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span> </li>
+                <li><i class="fa fa-home" aria-hidden="true"></i> <span>About</span></li>
+                <li><i class="fa fa-home" aria-hidden="true"></i> <span>Services</span></li>
+            </ul>
+        </div>
+        </div>
+        <div class="map-container" id="default-map-container">
+            <iframe src="http://192.168.1.160:8082/" allowfullscreen="true" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
